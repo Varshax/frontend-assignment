@@ -1,0 +1,50 @@
+# Dependency directories
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Webpack build output
+dist/
+build/
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+
+# Playwright downloads
+playwright/.cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+
+# Coverage files
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# JSON lock files (if not required)
+package-lock.json
+yarn.lock
+
+# Build-related JSON files
+*.json (add this only if you generate runtime files)
